@@ -14,7 +14,9 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 function partida_nueva () {
-	
+    primero = false
+    puntos_A = 0
+    puntos_B = 0
 }
 input.onButtonPressed(Button.B, function () {
     if (pulsado == false) {
@@ -38,6 +40,7 @@ function cambia_icono () {
 }
 let icono = 0
 let puntos_B = 0
+let primero = false
 let puntos_A = 0
 let num_icono = 0
 let pulsado = false
