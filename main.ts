@@ -3,6 +3,9 @@ input.onButtonPressed(Button.A, function () {
         pulsado = true
         if (num_icono == 0 || num_icono == 2) {
             puntos_A += 1
+            if (puntos_A == 10) {
+            	
+            }
         } else if (num_icono == 0) {
             basic.showString("A: has perdido")
             basic.pause(5000)
@@ -23,6 +26,9 @@ input.onButtonPressed(Button.B, function () {
         pulsado = true
         if (num_icono == 0 || num_icono == 2) {
             puntos_B += 1
+            if (puntos_B == 10) {
+            	
+            }
         } else if (num_icono == 0) {
             basic.showString("A: has perdido")
             basic.pause(5000)
